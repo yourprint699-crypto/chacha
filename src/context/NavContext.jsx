@@ -7,6 +7,7 @@ export const NavbarColorContext = createContext()
 const NavContext = ({ children }) => {
 
     const [navColor, setNavColor] = useState('white')
+    
     const [navOpen, setNavOpen] = useState(false)
 
     const locate = useLocation().pathname
